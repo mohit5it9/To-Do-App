@@ -21,7 +21,7 @@
 					<tr>
 						<td style="width:15%;text-align:center"><?php echo $row['id'];?></td>
 						<td style="width:25%;text-align:center"><?php echo $row['task'];?></td>
-						<td style="width:30%;"><?php echo $row['time'];?></td>
+						<td style="width:30%;"><?php echo $row['time'];?><form action="delete.php" method="get"><input name="<?php echo $row['task']?>" type="submit" value="Delete"></form></td>
 					</tr>
 			<?php } ?>
 		</table>
