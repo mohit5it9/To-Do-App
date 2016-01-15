@@ -14,7 +14,6 @@
 	}
 	else{
 		echo "Error in Deleting";
-
 	}
 	mysql_close($connection);
 ?>
