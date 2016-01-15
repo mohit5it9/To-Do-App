@@ -6,7 +6,7 @@
 		</title>
 	</head>
 	<body>
-		<table  border='1' style="border:1px solid grey;width:80%;margin-left:auto;margin-right:auto">
+		<table  border='1' style="border:2px solid grey;width:80%;margin-left:auto;margin-right:auto">
 			<tr>
 				<th>ID</th>
 				<th>Task</th>
