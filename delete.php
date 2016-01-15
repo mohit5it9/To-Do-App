@@ -1,6 +1,5 @@
 <?php
 	$uri=$_SERVER['REQUEST_URI'];
-	$url=$uri;
 	$uri=explode('?',$uri);
 	$keyword=$uri[1];
 	$keyword=explode('=',$keyword);
